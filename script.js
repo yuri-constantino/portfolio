@@ -8,15 +8,15 @@ function toggleMode(){
   */
    
   //pegar a tag img
-  const img = document.querySelector("#profle img")
+  const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")){
     //se tiver light mode adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto light Mode")
+    img.setAttribute("src", "./assets/avatar-light.png");
+    img.setAttribute("alt", "Foto light Mode");
   } else {
     // se tiver em dark mode adicionar a imagem dark
-    img.setAttribute("src", "./assets/avatar-dark.png")
-    img.setAttribute("alt", "foto dark mode")
+    img.setAttribute("src", "./assets/avatar-dark.png");
+    img.setAttribute("alt", "foto dark mode");
   }
 }
